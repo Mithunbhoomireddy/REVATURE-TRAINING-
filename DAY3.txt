@@ -1,0 +1,557 @@
+	COMPARATOR OPERATOR :
+num=5
+num==5
+True
+num>6
+False
+num>=5
+True
+num<=4
+False
+6!=7
+True
+
+	LOGICAL OPERATOR :
+5 >6 and 6>2
+False
+5 >6 or 6>2
+True
+not 6
+False
+not -5
+False
+not 0
+True
+
+	BITWISE OPERATOR :
+7&9
+1
+7|9
+15
+7^9
+14
+
+	SHIFT OPERATOR :
+5>>3
+0
+5<<3
+40
+5>>>3
+SyntaxError: invalid syntax
+5<<<3
+SyntaxError: invalid syntax
+
+	MEMBERSHIP OPERATOR :
+"I" in NAME
+True
+"T" not in NAME
+False
+
+	IDENTICAL OPERATOR :
+A=35
+B=12
+A is B
+False
+C=35
+A is C
+True
+type(A) is int
+True
+D=10000
+type(A) is type(D)
+True
+F=1000
+D is F
+False
+A is not B
+True
+type(A) is not type(D)
+False
+
+concatenation of string and number is not possible 
+	INPUT/OUTPUT STATEMENT  :
+	PRINT() : 
+print('hi')
+hi
+print('hi'+'hello')
+hihello
+print(10+12)
+22
+print('hi'+A)
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    print('hi'+A)
+TypeError: can only concatenate str (not "int") to str
+print('number: ',A)
+number:  35
+print("hello"+'\n'+'mithun')
+hello
+mithun
+	INPUT() :
+input()
+77
+'77'
+input()
+hello
+'hello'
+input('enter a number :')
+enter a number :100
+'100' 
+
+	TYPECASTING() :
+int(input('enter a number:'))
+enter a number:5
+5
+float(input('enter a number:'))
+enter a number:5
+5.0
+bool(input('enter a number:'))
+enter a number:5
+True
+bool(input('enter a number:'))
+enter a number:0
+True
+bool(int(input('enter a number:')))
+enter a number:0
+False
+
+HERE IN TYPECASTING: 
+IT RETURNS 2THINGS 
+DATA 	5	0	-1	EMPTY
+STATUS	T	T	T	F
+
+INT TYPECASTING 
+INT	5	-1	0	EMPTY
+BOOL	T	T	F	ERROR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+5 >6 and 6>2
+False
+5 >6 or 6>2
+True
+!6
+SyntaxError: invalid syntax
+not 6
+False
+not -5
+False
+not 0
+True
+7&9
+1
+7|9
+15
+7^9
+14
+14
+14
+6!=7
+True
+num=5
+num==5
+True
+num>6
+False
+num>=5
+True
+num<=4
+False
+5>>3
+0
+5<<3
+40
+5>>>3
+SyntaxError: invalid syntax
+5<<<3
+SyntaxError: invalid syntax
+NAME="MITHUN'
+SyntaxError: unterminated string literal (detected at line 1)
+NAME="MITHUN"
+I IN NAME
+SyntaxError: invalid syntax
+I in NAME
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    I in NAME
+NameError: name 'I' is not defined
+"I" in NAME
+True
+"T" not in NAME
+False
+A=35
+B=12
+A is B
+False
+C=35
+A is C
+True
+type(A) is int
+True
+D=10000
+type(A) is type(D)
+True
+F=1000
+D is F
+False
+A is not B
+True
+type(A) is not type(D)
+False
+print('hi'+A)
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    print('hi'+A)
+TypeError: can only concatenate str (not "int") to str
+print('hi')
+hi
+print('hi'+'hello')
+hihello
+peint(10+12)
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    peint(10+12)
+NameError: name 'peint' is not defined. Did you mean: 'print'?
+print(10+12)
+22
+print('number: ',A)
+number:  35
+print("hello"+'\n'+'mithun')
+hello
+mithun
+input()
+77
+'77'
+input()
+hello
+'hello'
+input('enter a number :')
+enter a number :100
+'100'
+input(input())
+false
+false
+''
+bool(input())
+false
+True
+bool(input())
+
+False
+int(input('enter a number:'))
+enter a number:5
+5
+float(input('enter a number:'))
+enter a number:5
+5.0
+bool(input('enter a number:'))
+enter a number:5
+True
+bool(int(input('enter a number:')))
+enter a number:0
+False
+bool(input('enter a number:'))
+enter a number:0
+True
+5#number
+5
+"string" """it is a name """
+'stringit is a name '
+"string"
+'string'
+"string" """ it is a name
+"""
+'string it is a name\n'
+print('hi')""" hello mawa"""
+SyntaxError: invalid syntax
+print('hi') """ hello mawa"""
+SyntaxError: invalid syntax
+print('hi') """ hello mawa"""
+SyntaxError: invalid syntax
+print('hi') ;""" hello mawa"""
+hi
+' hello mawa'
+str1="mithun bhoomireddy"
+str1[0]
+'m'
+str1[-1]
+'y'
+str[0:5]
+Traceback (most recent call last):
+  File "<pyshell#68>", line 1, in <module>
+    str[0:5]
+TypeError: type 'str' is not subscriptable
+str1[0:5]
+'mithu'
+str1[0:6:2]
+'mtu'
+str1[::2]
+'mtu hoied'
+str1[-1:-3]
+''
+str1[-1:-10:2]
+''
+str1[-8:-1]
+'omiredd'
+str1[-8:-1:-2]
+''
+''str1[-8:-1:2]
+SyntaxError: invalid syntax
+str1[-8:-1:2]
+'oied'
+str1.upper()
+'MITHUN BHOOMIREDDY'
+str1.capitalize()
+'Mithun bhoomireddy'
+str1.lower()
+'mithun bhoomireddy'
+str1.count()
+Traceback (most recent call last):
+  File "<pyshell#81>", line 1, in <module>
+    str1.count()
+TypeError: count expected at least 1 argument, got 0
+str1.count('')
+19
+str1.count('o')
+2
+str1.endswith('y')
+True
+str1.startswith('b')
+False
+str1.find('n')
+5
+str1.find('hee')
+-1
+str1.index('n')
+5
+str1.index('bee')
+Traceback (most recent call last):
+  File "<pyshell#89>", line 1, in <module>
+    str1.index('bee')
+ValueError: substring not found
+value=5
+print(str(value))
+5
+#here it converts number into string
+#other types to string
+swapcase(str1)
+Traceback (most recent call last):
+  File "<pyshell#94>", line 1, in <module>
+    swapcase(str1)
+NameError: name 'swapcase' is not defined
+str1.swapcase()
+'MITHUN BHOOMIREDDY'
+str2= 'mithun'
+str2.split()
+['mithun']
+str3= "my name is mithun bhoomireddy and i'm working as intern in revature"
+str3.partition('is')
+('my name ', 'is', " mithun bhoomireddy and i'm working as intern in revature")
+l1="hii"
+id(l1)
+2007796272512
+l1="hello"
+id(l1)
+2007760288624
+numbers=[1,2,3,4,5]
+id(numbers)
+2007796196096
+numbers.append(40,50,60)
+Traceback (most recent call last):
+  File "<pyshell#106>", line 1, in <module>
+    numbers.append(40,50,60)
+TypeError: list.append() takes exactly one argument (3 given)
+numbers.append(40)
+numbers
+[1, 2, 3, 4, 5, 40]
+id(numbers)
+2007796196096
+li2=[45,34,12,32]
+numbers.append(li2)
+numbers
+[1, 2, 3, 4, 5, 40, [45, 34, 12, 32]]
+id(numbers)
+2007796196096
+numbers.append(1)
+numbers
+[1, 2, 3, 4, 5, 40, [45, 34, 12, 32], 1]
+numbers.index(4)
+3
+numbers.insert(4,400)
+numbers
+[1, 2, 3, 4, 400, 5, 40, [45, 34, 12, 32], 1]
+numbers.remove(400)
+numbers
+[1, 2, 3, 4, 5, 40, [45, 34, 12, 32], 1]
+numbers.pop(1)
+2
+numbers.reverse()
+numbera
+Traceback (most recent call last):
+  File "<pyshell#123>", line 1, in <module>
+    numbera
+NameError: name 'numbera' is not defined. Did you mean: 'numbers'?
+numbers
+[1, [45, 34, 12, 32], 40, 5, 4, 3, 1]
+numbers.sort()
+Traceback (most recent call last):
+  File "<pyshell#125>", line 1, in <module>
+    numbers.sort()
+TypeError: '<' not supported between instances of 'list' and 'int'
+numbers=[1,2,5,3,7,4]
+numbers.sort()
+numbers
+[1, 2, 3, 4, 5, 7]
+numbers.sort(reverse=True)
+numbers
+[7, 5, 4, 3, 2, 1]
+nums=numbers
+nums2=numbers.copy()
+id(numbers)
+2007794393344
+id(numbs)
+Traceback (most recent call last):
+  File "<pyshell#134>", line 1, in <module>
+    id(numbs)
+NameError: name 'numbs' is not defined. Did you mean: 'nums'?
+id(nums)
+2007794393344
+id(nums2)
+2007796195584
+numbers.clear()
+numbers
+[]
+tup1=(2,3,1,4,5)
+tup1
+(2, 3, 1, 4, 5)
+tup1.index(3)
+1
+tup1[4]
+5
+tup1.count()
+Traceback (most recent call last):
+  File "<pyshell#143>", line 1, in <module>
+    tup1.count()
+TypeError: tuple.count() takes exactly one argument (0 given)
+tup1.count(1)
+1
+tup1.clear()
+Traceback (most recent call last):
+  File "<pyshell#145>", line 1, in <module>
+    tup1.clear()
+AttributeError: 'tuple' object has no attribute 'clear'
+del(tup1)
+tup1
+Traceback (most recent call last):
+  File "<pyshell#147>", line 1, in <module>
+    tup1
+NameError: name 'tup1' is not defined. Did you mean: 'tuple'?
+del(numbers)
+numbers
+Traceback (most recent call last):
+  File "<pyshell#149>", line 1, in <module>
+    numbers
+NameError: name 'numbers' is not defined. Did you forget to import 'numbers'?
+set1={1,2,3,4}
+set1
+{1, 2, 3, 4}
+set2{23,64,12,66,72,1}
+SyntaxError: invalid syntax
+set2={23,64,12,66,72,1}
+set2
+{64, 1, 66, 23, 72, 12}
+set2.add(10)
+set2
+{64, 1, 66, 23, 72, 10, 12}
+set2(222)
+Traceback (most recent call last):
+  File "<pyshell#157>", line 1, in <module>
+    set2(222)
+TypeError: 'set' object is not callable
+set2.add(222)
+set2
+{64, 1, 66, 23, 72, 10, 12, 222}
+set1.union set2
+SyntaxError: invalid syntax
+set1.union(set2)
+{64, 1, 2, 3, 4, 66, 72, 10, 12, 23, 222}
+set3=set1.union(set2)
+set3
+{64, 1, 2, 3, 4, 66, 72, 10, 12, 23, 222}
+set3.intersection(set1)
+{1, 2, 3, 4}
+set2.difference(set1)
+{64, 66, 72, 10, 12, 23, 222}
+set2.discard(66)
+set2
+{64, 1, 23, 72, 10, 12, 222}
+dict1={1:"mithun",2:"vijay",3:"ajay",4:"bhoomireddy"}
+dict1
+{1: 'mithun', 2: 'vijay', 3: 'ajay', 4: 'bhoomireddy'}
+dict[2]
+dict[2]
+dict1[2]
+'vijay'
+dict1.get(2)
+'vijay'
+dict1.get()
+Traceback (most recent call last):
+  File "<pyshell#173>", line 1, in <module>
+    dict1.get()
+TypeError: get expected at least 1 argument, got 0
+dict.keys()
+Traceback (most recent call last):
+  File "<pyshell#174>", line 1, in <module>
+    dict.keys()
+TypeError: unbound method dict.keys() needs an argument
+dict1.keys()
+dict_keys([1, 2, 3, 4])
+dict1.values()
+dict_values(['mithun', 'vijay', 'ajay', 'bhoomireddy'])
+dict1.items()
+dict_items([(1, 'mithun'), (2, 'vijay'), (3, 'ajay'), (4, 'bhoomireddy')])
+dict1.pop(2)
+'vijay'
+dict1
+{1: 'mithun', 3: 'ajay', 4: 'bhoomireddy'}
+dict1.pop
+
+
